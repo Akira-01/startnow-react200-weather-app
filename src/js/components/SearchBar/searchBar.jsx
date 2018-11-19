@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { updateSearch, updateWeatherInfo, updateHistory } from './searchActions';
 
 export default class SearchBar extends React.Component {
   constructor(props) {
@@ -16,8 +16,7 @@ export default class SearchBar extends React.Component {
   };
 
   clickSearchButton() {
-    const { dispatch } = this.props;
-    const { userQuery } = this.props;
+    const { dispatch, userQuery } = this.props;
     dispatch(updateWeatherInfo(userQuery));
     dispatch(updateHistory(userQuery));
 
