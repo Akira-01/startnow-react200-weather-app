@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default class CityInformation extends React.Component {
+export default class cityInformation extends React.Component {
     render() {
         const { weatherInfo } = this.props;
         const icon = weatherInfo.data.weather[0].icon;

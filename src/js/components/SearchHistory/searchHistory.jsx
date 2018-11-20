@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default class SearchHistory extends React.Component {
+export default class searchHistory extends React.Component {
 
     render() {
             return (
