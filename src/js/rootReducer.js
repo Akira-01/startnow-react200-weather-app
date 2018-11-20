@@ -5,9 +5,9 @@ import historyReducer from './components/SearchHistory/historyReducer';
 
 
 const rootReducer = combineReducers({
-    cityReducer,
-    searchReducer,
-    historyReducer
+    cityReducer: cityReducer,
+    searchReducer: searchReducer,
+    historyReducer: historyReducer
 });
 
 export default rootReducer;

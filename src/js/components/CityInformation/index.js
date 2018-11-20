@@ -3,7 +3,7 @@ import CityInformation from './cityInformation';
 
 function mapStoreToProps(store) {
   return {
-
+    weatherInfo: store.searchReducer.weatherInfo
 
 
   };
