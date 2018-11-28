@@ -57,7 +57,7 @@ export default class SearchBar extends React.Component {
     dispatch(updateWeatherInfo('London'));
     dispatch(updateHistory('London'));
   };
-  
+
 
   
   render() {
