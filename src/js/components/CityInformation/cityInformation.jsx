@@ -5,6 +5,7 @@ export default class cityInformation extends React.Component {
     render() {
         const { weatherInfo } = this.props;
         const icon = weatherInfo.data.weather[0].icon;
+        console.log(weatherInfo);
         const url = `http://openweathermap.org/img/w/${icon}.png`
         return (
       <div>
